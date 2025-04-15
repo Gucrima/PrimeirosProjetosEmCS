@@ -7,9 +7,9 @@ namespace Course {
             bool completo = false; // booleano, pode ser true ou false
             char genero = 'M'; // char é um único caractere, aspas simples
             char letra = '\u0041'; // letra A em unicode
-            byte n1 = 126;
-            int n2 = 1000;
-            int n3 = 2147483647;
+            byte n1 = 126; // byte é um número inteiro, 1 byte, 0 a 255 
+            int n2 = 1000; // int é um número inteiro, 4 bytes, -2.147.483.648 a 2.147.483.647
+            int n3 = 2147483647; // int é um número inteiro, 4 bytes, -2.147.483.648 a 2.147.483.647
             long n4 = 2147483648L; // long is needed for numbers larger than int, L maiusculo indica que é um long
             float n5 = 4.5f; // float é um número decimal, f indica que é um float
             double n6 = 4.5; // double é um número decimal, mais preciso que float
